@@ -83,11 +83,11 @@
 			isa = PBXGroup;
 			children = (
 				1DE2B64F2864B2CF002FD817 /* SupportingFiles */,
+				1DE2B6552864B303002FD817 /* Models */,
+				1DE2B6542864B2F7002FD817 /* Services */,
 				1DA0FB372864C3C20053EE05 /* ViewControllers */,
 				1DE2B64D2864B2BE002FD817 /* Storyboards */,
 				1DE2B64E2864B2C6002FD817 /* Resource */,
-				1DE2B6542864B2F7002FD817 /* Services */,
-				1DE2B6552864B303002FD817 /* Models */,
 			);
 			path = TestAvito;
 			sourceTree = "<group>";
