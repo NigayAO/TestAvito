@@ -20,8 +20,6 @@ class NetworkManager {
     
     private init() {}
     
-    
-    
     func fetchData(completion: @escaping(Result<MocObject, NetworkError>) -> Void) {
         
         guard let url = URL(string: stringURL) else {
@@ -42,7 +40,6 @@ class NetworkManager {
             cache.removeAllCachedResponses()
             print("Cached was removed")
         }
-        
         
         if let data = cache.cachedResponse(for: request)?.data {
             guard let receivedData = try? JSONDecoder().decode(MocObject.self, from: data) else { return }
